@@ -1,0 +1,136 @@
+---
+bibliography: bio.bib
+csl: harvard-cite-them-right.csl
+title: POLICY BRIEFING TITLE
+format: 
+  pdf:
+    include-in-header:
+      text: |
+        \addtokomafont{disposition}{\rmfamily}
+    #documentclass: report
+    # If using Quarto in Docker, available fonts are: `fc-list : family | sort | uniq`
+    # If using Quarto on local machine then you can usually pick them from the list of installed fonts
+    mainfont: "Spectral" # https://fonts.google.com/specimen/Spectral
+    sansfont: "Roboto"   # https://fonts.google.com/specimen/Roboto?category=Sans+Serif
+    monofont: "Inconsolata" # https://fonts.google.com/specimen/Inconsolata
+    papersize: a4
+    geometry:
+      - top=25mm
+      - left=40mm
+      - right=30mm
+      - bottom=25mm
+      - heightrounded
+    toc: false
+    number-sections: true
+    colorlinks: true
+    highlight-style: github
+---
+
+## Declaration of Authorship {.unnumbered .unlisted}
+
+We, \[Juerong Wang, Qiqi Liu, Diana Mathai \]confirm that the work presented in this assessment is my own. Where information has been derived from other sources, I confirm that this has been indicated in the work.
+
+\[Juerong Wang, Qiqi Liu, Diana Mathai\]
+
+Date: 2023/01/17
+
+Student Number: 22190997 19119663 22232921
+
+## Executive Summary
+
+This report will conduct an analysis of the supply and demand side of the London Airbnb rental market before and after the epidemic, focusing on changes in different administrative regions. The number of listings will serve as an indicator of changes on the supply side, while the number of properties remaining per listing will serve as an indicator of the demand side of the market. According to the changes in the number of listings before and after the epidemic and the number of reviews on listings, the report will summarize the opportunities and risks that the epidemic has brought to the Airbnb rental market. The report concludes with recommendations on policy for the existing short-term letting market in London. This paper answers three main questions.
+
+1.  How has the Airbnb rental market changed before and after the epidemic?
+
+2.  What are the changes in the supply side of the market before and after the epidemic?
+
+3.  How did the market demand change before and after the epidemic?
+
+Key findings:
+
+1.  Comparing the number of listings in 2019 and 2022, only five boroughs have reduced the number of listings, of which **Tower Hamlets** has the largest **reduction** of **18.78%**. Among other areas showing growth, **Bexley** is the area with the largest **increase** in the number of listings, reaching **61.31%**.
+2.  According to the number of listings needed by the market defined by the number of messages and the time of the last message, **Bexley** is the area with the largest **increase** in the number of listings in demand, with an increase of **46.76%**. **Tower Hamlets**, on the other hand, saw a **127.2%** reduction in the number of listings being requested.
+
+## 1 Introduction
+
+### 1.1 Key Facts about Airbnb
+
+Since its inception in 2007, Airbnb has impacted the travel and tourism Industry. In the past 16 years of market presence, the company has grown to have over 4+ Mn host listings and hosted over 1+ Bn (2003) guests since its inception , a net worth of \$57 Bn and a geographical spread in over 220 + countries and 100,000+ cities. According to the number of listings needed by the market defined by the number of messages and the time of the last message, Bexley is the region with the largest increase in the number of listings in demand, with an increase of 46.76%. Tower Hamlets, on the other hand, saw a 127.2% reduction in the number of listings being requested.
+
+#### **Airbnb in 2021**
+
+1.  Airbnb guests spending: \$20.8 US BN (2019)
+
+2.  Airbnb guest spending share in direct tourism (in the EU27): 3.1% (2019)
+
+3.  Direct impact increase per 1,000 Airbnb guests from 2019 to 2020 (increasing geographical dispersion)
+
+4.  Average Nights per booking Nights/ booking: 3.5 (2019) to 4+ (2021)
+
+5.  Increase in percentage of nights booked in Long-term stays (at least 28 nights): 14% (2019) to 24% (Q1 2021).
+
+6.  Long-term stay listings offered: 87% of available listing Demand for longer stays post-pandemic: 42% longer stays (consumer survey)
+
+7.  Increase in Family travel accounts (nights booked): 27% (2019 summer) to 33% (2021 summer)
+
+8.  Airbnb Host income share: 97% of the charged cost Jobs: directly supported around 344,000 jobs in 2019 (3.1% of all direct tourism activity)
+
+9.  Based on the above research the report AIMS showcases key findings of the impact of the pandemic on AIRBNB properties in London
+
+### 1.2 Short-Term Rentals in London and outside London
+
+-   Short-term letting duration inside London (As per the Govt guidelines): **Maximum of 90 nights** in a calendar year, post obtaining planning permission
+
+-   Short-term letting duration outside London (as per the Govt. guidelines): No restriction on the number of nights/ days per property outside London.
+
+## Methods
+
+The purpose of this report is to explore the impact of the epidemic on the Airbnb short-term rental market, based on the changes in data before and after the epidemic. Therefore, in this report, exploratory data analysis (EDA) is mainly used to summarize the main characteristics of the housing data before and after the epidemic provided by Insideairbnb, and no formal modeling has been made.
+
+## Findings
+
+### Supply-overview
+
+-   Combining the data of 2019 and 2022 with Figure 1, only **4 boroughs** saw a **decrease** in the number of listings after the epidemic, and the remaining **29 boroughs** all showed an **upward** trend.
+
+-   In the statistics of the number of listings in 2019 and 2022, Westminster, Tower Hamlets, Hackney, Camden, Kensington and Chelsea, these five boroughs are the top five areas with the biggest number of listings. But it is worth noting that the total number of listings in the **Tower Hamlets** and **Camden** areas has **declined**, falling by **18.78%** and **1.89%** respectively.
+
+-   The number of listings in the **Bexley** area increased from 159 to 411, an **increase** of **61.3%**, the largest increase in all areas.
+
+Figure 1a: Number of listings in 2019 and 2022
+
+![](reults1.png)
+
+### Supply-Availability
+
+Can these listings be offered on the real market?To understand the real market situation, I decided to use the availability of the data for the next 365 days to see the real and effective listings.
+
+-   It can be seen from the map that the listings of the entire London are still concentrated in the central area, and the overall **availability of rental listings** is concentrated **below 150 days**.
+
+-   There are now two possibilities for this:
+
+    Many listings have been rented for almost half of the time in the next 365 days, which shows that Airbnb is very popular in the short-term rental market, so the **short-term rental market is active** in 2019.
+
+    There is also the possibility that landlords are limiting the length of time their listings can be rented out, when **landlords in 2019 preferred less than 5 months**.
+
+Figure 2a: Map of Available Supplied listings in 2019
+
+Figure 2b:Map of Available Supplied listings 2022
+
+### Demand
+
+Review is the key indicator that can represent market demand in the data set. Therefore, when processing data, last reviewed date were used to filter listings that are needed by the market. In the same way, when a listing has not been commented for nearly a year, it proves that the demand for the listing in the short-term rental market is no longer considered.
+
+-   As can be seen from Figure 1, the number of listings were needed (favored) by the market is generally greater in 2019 than in 2022.
+
+-   As far as the demand side is concerned, only 4 boroughs' listings have increased in number, of which **Bexley** has the largest **increase,** **reaching 46.76%**. Listings for the remaining 29 boroughs all fell. It is worth noting that the number of listings in the two areas of **Islington** and **Tower Hamlets** **fell** by **100.3%** and **127.23%** respectively.
+
+Figure 1b: The number of housing listings required in 2019 and 2022
+
+![](result%202.png)
+
+### Demand-Availability
+
+## Recommendations
+
+## References
