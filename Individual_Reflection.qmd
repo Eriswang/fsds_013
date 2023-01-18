@@ -36,19 +36,23 @@ Student Number: 22190997
 
 ## What factors do you think help to explain what went well/not well in the project?
 
--   Before starting data analysis, it is necessary to know the purpose of the analysis and the way to achieve the purpose. Because different methods get different results. The purpose of the analysis can determine the method of analysis and thus indirectly influence the results. If there is a clear objective and scope for the analysis, then the method chosen will also be based on the overall research framework.This will make the data analysis more logical。
+-   Before starting data analysis, it is basci necessary to know the purpose of the analysis and the way to achieve the purpose. Because different methods get different results. The purpose of the analysis can determine the method, whihch indirectly influence the results. If there is a clear objective and scope for the analysis, then the method chosen will also be based on the overall research framework.This will make the data analysis process in a logical way.
 
--   Secondly, when describing the data, the choice of key variables will affect the analysis results directly . When deal with a large amount of data, selecting appropriate variables for description of data can difficult but vital. For example, although there have been similar studies in the field of Covid-19 impacts on airbnb, it is difficult to select "correct" variables that can represent 'impact'according to the literature. When a variable is chosen that is sufficiently appropriate to quantify "impact", the outcome is directly affected by the variable.
+-   Secondly, when describing the data, the choice of key variables will affect the analysis results directly . When deal with a large amount of data, selecting appropriate variables for description of data can difficult but vital. For example, although there have been similar studies in the field of Covid-19 impacts on airbnb, it is difficult to select "correct" variables that can represent 'impact' according to the literature. When a variable is chosen that is sufficiently appropriate to quantify "impact", the outcome is directly affected by the variable.
+
+-   Therefore, I think that whether it is academic research, data analysis or report interpretation, when there is a clear and definite research question and scope, the whole process can be well explained. And run the whole analysis well.
 
 ## How do you think the other students in *your* group would evaluate *your* contribution to each of these outcomes?
 
 -   Selected Topic: Throughout the group discussion, I considered myself an active participant in the discussion and gave a personal perspective. However, my proposal, out of the data set itself, extends the research question beyond the data set
 
--   Determine the research method: Regarding the determination of the research method and the establishment of the framework of the entire report, after combining the existing similar reports with the team members, I established the basic structure of the final policy briefing, which laid the foundation for the next step of data exploration.
+-   Determine the research method: Regarding the determination of the research methods and the establishment of the framework of the entire report, after combining the existing similar reports with the team members, I established the basic structure of the final policy briefing, which laid the foundation for the next step of data exploration.
 
 -   Exploratory Analysis of Data: I was actively involved in organizing the structure of the entire data analysis and the process of data analysis, utilizing the course content. Contribute seriously to the cleaning and sorting of data, as well as the summary of the final data description, and respect the opinions of team members.
 
 -   Presentation of data: I oversaw putting together the final policy briefing after the group discussion reached a consensus, and I realized that the presentation of the final data and report was closely related to our group's active discussion and sharing of python coding knowledge.
+
+-   In general, I think my team members will think that I am good at summarizing and coordinating projects, and I am in the part of using the python language dedicated to data analysis.
 
 ## Briefly describe *one* event or experience from the group assessment that gave you new insight into 'doing' data science, and explain how and why this will be useful to you in the future.
 
