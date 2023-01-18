@@ -1,0 +1,57 @@
+---
+bibliography: bio.bib
+csl: harvard-cite-them-right.csl
+title: Individual Reflection
+format: 
+  pdf:
+    include-in-header:
+      text: |
+        \addtokomafont{disposition}{\rmfamily}
+    #documentclass: report
+    mainfont: "Spectral" # https://fonts.google.com/specimen/Spectral
+    sansfont: "Roboto"   # https://fonts.google.com/specimen/Roboto
+    monofont: "Inconsolata" # https://fonts.google.com/specimen/Inconsolata
+    papersize: a4
+    geometry:
+      - top=25mm
+      - left=40mm
+      - right=30mm
+      - bottom=25mm
+      - heightrounded
+    toc: false
+    number-sections: true
+    colorlinks: true
+    highlight-style: github
+---
+
+## Declaration of Authorship {.unnumbered .unlisted}
+
+I, \[Juerong Wang\], confirm that the work presented in this assessment is my own. Where information has been derived from other sources, I confirm that this has been indicated in the work.
+
+\[Juerong Wang\]
+
+Date:18/01/2023
+
+Student Number: 22190997
+
+## What factors do you think help to explain what went well/not well in the project?
+
+Establishing the goal of data analysis is the first step in the entire data analysis, and it is also the step that I think can most affect the entire analysis. Before starting formal data analysis, it is necessary to know the purpose of the analysis and the way to achieve the purpose through the methods. At the same time, in the process of framing the problem, focus and understand the clear scope. Because different methods get different results. Secondly, when describing the data, the choice of key variables will also affect the important factors of the analysis results. When faced with a large amount of data, selecting appropriate variables for description is difficult. For example, although there have been similar studies in the field of this problem, it is difficult to select enough "correct" variables according to the literature to quantify the purpose of data analysis because of the different research purposes and differences in data sets.
+
+## How do you think the other students in *your* group would evaluate *your* contribution to each of these outcomes?
+
+Selected Topic: Throughout the group discussion, I considered myself an active participant in the discussion and gave a personal perspective. However, my proposal, out of the data set itself, extends the research question beyond the data set Determine the research method: Regarding the determination of the research method and the establishment of the framework of the entire report, after combining the existing similar reports with the team members, I established the basic structure of the final policy briefing, which laid the foundation for the next step of data exploration. Exploratory Analysis of Data: I was actively involved in organizing the structure of the entire data analysis and the process of data analysis, utilizing the course content. Contribute seriously to the cleaning and sorting of data, as well as the summary of the final data description, and respect the opinions of team members. Presentation of data: I oversaw putting together the final policy briefing after the group discussion reached a consensus, and I realized that the presentation of the final data and report was closely related to our group's active discussion and sharing of python coding knowledge.
+
+## Briefly describe *one* event or experience from the group assessment that gave you new insight into 'doing' data science, and explain how and why this will be useful to you in the future.
+
+After the whole project is over, I think one thing I learned is that python is important and convenient for data analysis. So when you make good use of the python tool, data analysis will come naturally.
+
+1.  When using python for data analysis and exploration, my team members and I will share a lot of code that we have found from various python communities. The completion of this step made me realize the meaning of Python being open source, which means that it is free and can be easily ported to multiple platforms. Also, there are many open-source Python libraries.
+2.  When dealing with errors in the data analysis code, I realized that python has a good "after-sales service". Because of python's long-standing open-source features, python has a large number of users. And a large number of users will or have encountered the same error to discuss and propose a solution, which means that there will be more and more free support materials when faced with errors.
+3.  Python has very mature libraries in data analysis and interaction, exploratory computing, and data visualization. This allows our reports to be quickly visualized and analyzed when dealing with large amounts of data.
+
+## Sustainable Authorship Tools
+
+Written in Markdown and generated from [Quarto](https://quarto.org/). Fonts used: [Spectral](https://fonts.google.com/specimen/Spectral) (mainfont), [Roboto](https://fonts.google.com/specimen/Roboto) ([sansfont]{style="font-family:Sans-Serif;"}) and [Inconsolata](https://fonts.google.com/specimen/Inconsolata) (`monofont`).
+
+## References
